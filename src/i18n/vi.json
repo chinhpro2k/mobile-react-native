@@ -1,0 +1,14 @@
+{
+    "TB_CAP_NHAT": "Thông báo cập nhật",
+    "CAP_NHAT_NGAY": "Cập nhật ngay",
+    "NOI_DUNG_CAP_NHAT": "Phiên bản mới hơn của ứng dụng có sẵn. Cập nhật ngay để tiếp tục sử dụng ứng dụng và trải nghiệm các tính năng mới nhất!",
+    "UNG_DUNG_KO_TON_TAI": "Ứng dụng hiện không có trên {{store}}",
+    "HUY": "Huỷ",
+    "XAC_NHAN": "Xác nhận",
+    "CHON_NGAY_GIO": "Chọn ngày giờ",
+    "CHON_NGAY": "Chọn ngày",
+    "CHON_GIO": "Chọn giờ",
+    "NO_DATA": "Không có dữ liệu",
+    "CHON_THOI_GIAN": "Chọn thời gian",
+    "Default_place_holder": "Nhập thông tin"
+}

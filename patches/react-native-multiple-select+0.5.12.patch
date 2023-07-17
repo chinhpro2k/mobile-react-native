@@ -1,0 +1,30 @@
+diff --git a/node_modules/react-native-multiple-select/lib/react-native-multi-select.js b/node_modules/react-native-multiple-select/lib/react-native-multi-select.js
+index 9b7a0d7..66a3497 100644
+--- a/node_modules/react-native-multiple-select/lib/react-native-multi-select.js
++++ b/node_modules/react-native-multiple-select/lib/react-native-multi-select.js
+@@ -6,9 +6,10 @@ import {
+   TouchableWithoutFeedback,
+   TouchableOpacity,
+   FlatList,
+-  UIManager
++  UIManager,
++  TextPropTypes,
++  ViewPropTypes
+ } from 'react-native';
+-import {ViewPropTypes, TextPropTypes} from 'deprecated-react-native-prop-types';
+ import PropTypes from 'prop-types';
+ import reject from 'lodash/reject';
+ import find from 'lodash/find';
+@@ -62,9 +63,9 @@ export default class MultiSelect extends Component {
+     styleMainWrapper: ViewPropTypes.style,
+     styleRowList: ViewPropTypes.style,
+     styleSelectorContainer: ViewPropTypes.style,
+-    styleTextDropdown: TextPropTypes.style,
+-    styleTextDropdownSelected: TextPropTypes.style,
+-    styleTextTag: TextPropTypes.style,
++    styleTextDropdown: TextPropTypes?.style,
++    styleTextDropdownSelected: TextPropTypes?.style,
++    styleTextTag: TextPropTypes?.style,
+     styleIndicator: ViewPropTypes.style,
+     altFontFamily: PropTypes.string,
+     hideSubmitButton: PropTypes.bool,
